@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <header class="main-header">
+          <div class="container">
+          <div class="logo">
+            <img src="http://placehold.it/150x100" alt="Седона" width="150" height="75">
+          </div>
+            <nav class="main-navigation">
+              <ul>
+                <li>
+                  <a href="#">Информация</a>
+                </li>
+                <li>
+                  <a href="#">Фото и видео</a>
+                </li>
+                <li>
+                  <a href="#">Карта штата</a>
+                </li>
+                <li>
+                  <a href="#">Гостиницы</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+<main class="hotel">
+  <div>
+  <form class="hotel-form" action="/echo" method="get">
+    <div class="infra">
+      <p>Инфраструктура:</p>
+      <input type="checkbox" name="infra1" id="infra1" checked>
+      <label for="infra1">Бассейн</label>
+      <input type="checkbox" name="infra2" id="infra2">
+      <label for="infra2">Парковка</label>
+      <input type="checkbox" name="infra3" id="infra3">
+            <label for="infra3">WI-FI</label>
+    <div>
+    <div class="type-home">
+        <p>Тип жилья:</p>
+        <input type="checkbox" name="type-home1" id="type-home1" checked>
+        <label for="type-home1">Гостиница</label>
+        <input type="checkbox" name="type-home2" id="type-home2" checked>
+        <label for="type-home2">Мотель</label>
+        <input type="checkbox" name="type-home3" id="type-home3" checked>
+        <label for="type-home3">Апартаменты</label>
+    <div>
+    <div class="cost">
+      <div class="cost-width">
+      <label for="costcount">Стоимость в сутки(р):</label>
+      <input type="range" id="dayscount" name="dayscount" min="0" max="5000" step="500">
+      </div>
+      <div class="cost-width output-area">
+      <output name="daysoutput"></output>
+      <input type="submit" value="Показать">
+    </div>
+  </form>
+</div>
+<div class="findout">
+  <div class="findout1">
+    <p>Найдено: 3</p>
+    <ul>
+    <li><a href="#">Сортировка:</li>
+    <li><a href="#" checked>По цене</li>
+    <li><a href="#">По типу</li>
+    <li><a href="#">По рейтингу</li>
+    <a href="#" class="up-arrow">
+    <a href="#" class="down-arrow" checked>
+  </div>
+  <div class="findout2">
+    <section "hotel-list">
+      <img src="http://placehold.it/150x100" alt="Amara resort & Spa" width="150" height="100">
+      <h2>Amara resort & Spa</h2>
+      <p>Гостиница</p>
+      <p>от 4000 р.</p>
+      <button>Подробнее</button>
+      <button>Забронировать</button>
+      <div class="stars">
+      </div>
+      <div class="rating">
+      <p>Рейтинг: 8.5</p>
+      </div>
+    </section>
+    <section "hotel-list">
+      <img src="http://placehold.it/150x100" alt="Desert quail inn" width="150" height="100">
+      <h2>Desert quail inn</h2>
+      <p>Мотель</p>
+      <p>от 3000 р.</p>
+      <button>Подробнее</button>
+      <button>Забронировать</button>
+      <div class="stars">
+      </div>
+      <div class="rating">
+      <p>Рейтинг: 8.9</p>
+      </div>
+    </section>
+    <section "hotel-list">
+      <img src="http://placehold.it/150x100" alt="Villas at poco diablo" width="150" height="100">
+      <h2>Villas at poco diablo</h2>
+      <p>Апартаменты</p>
+      <p>от 2000 р.</p>
+      <button>Подробнее</button>
+      <button>Забронировать</button>
+      <div class="stars">
+      </div>
+      <div class="rating">
+      <p>Рейтинг: 8.9</p>
+      </div>
+    </section>
+  </div>
+</div>
+</main>
+        <footer class="main-footer">
+          <div class="container">
+            <section class="footer-contacts">
+              #Visitsedona
+            </section>
+            <section class="footer-social">
+              <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+              <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+              <a class="social-btn social-btn-youtube" href="#">Ютуб</a>
+            </section>
+            <section class="footer-copyright">
+              <p>WEBSITE BY</p>
+              <img class="btn" href="https://htmlacademy.ru" src="http://placehold.it/150x100" alt="HTML Academy" width="150" height="50">
+            </section>
+          </div>
+        </footer>
+      </body>
+    </html>
