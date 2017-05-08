@@ -8,7 +8,6 @@
   <body>
     <header class="main-header">
           <div class="container">
-            <a href="#" class="logo">
             <nav class="main-navigation">
               <ul>
                 <li>
@@ -16,6 +15,9 @@
                 </li>
                 <li>
                   <a href="#">Фото и видео</a>
+                </li>
+                <li>
+                  <a class="logo" href="#"></a>
                 </li>
                 <li>
                   <a href="#">Карта штата</a>
@@ -26,9 +28,9 @@
               </ul>
             </nav>
           </div>
-        </header>
-<main class="hotel">
-  <div>
+    </header>
+<main>
+  <div class="hotel">
   <form class="hotel-form" action="/echo" method="get">
     <div class="infra">
       <h3>Инфраструктура:</h3>
@@ -45,7 +47,7 @@
           <input type="checkbox" name="infra3" id="infra3">
           <label for="infra3">WI-FI</label>
         </li>
-    <div>
+    </div>
     <div class="cost-type">
       <h3>Тип жилья:</h3>
       <ul>
@@ -61,7 +63,7 @@
           <input type="checkbox" name="type-home3" id="type-home3" checked>
           <label for="type-home3">Апартаменты</label>
         </li>
-    <div>
+    </div>
     <div class="cost-in-day">
       <div class="range">
       <label for="costcount">Стоимость в сутки(р):</label>
@@ -71,7 +73,7 @@
       <output name="daysoutput"></output>
       <button type="submit">Показать</button<>
     </div>
-  </form>
+</form>
 </div>
 <div class="findout">
   <div class="findout-sorting">
@@ -88,33 +90,39 @@
   <div class="findout-results">
     <section class="hotel-item">
       <img src="img/hotelamara.jpg" alt="Amara resort and Spa" width="140" height="90">
+    <div class="findout-about">
       <h2>Amara resort and Spa</h2>
       <p>Гостиница</p>
       <p>от 4000 р.</p>
       <button>Подробнее</button>
       <button>Забронировать</button>
+    </div>
       <div class="star">
       </div>
       <p class="rating">Рейтинг: 8.5</p>
     </section>
     <section class="hotel-item">
       <img src="img/hoteldesert.jpg" alt="Desert quail inn" width="140" height="90">
+      <div class="findout-about">
       <h2>Desert quail inn</h2>
       <p>Мотель</p>
       <p>от 3000 р.</p>
       <button>Подробнее</button>
       <button>Забронировать</button>
+      </div>
       <div class="star">
       </div>
       <p class="rating">Рейтинг: 8.9</p>
     </section>
     <section class="hotel-item">
       <img src="img/hotelvillas.jpg" alt="Villas at poco diablo" width="140" height="90">
+      <div class="findout-about">
       <h2>Villas at poco diablo</h2>
       <p>Апартаменты</p>
       <p>от 2000 р.</p>
       <button>Подробнее</button>
       <button>Забронировать</button>
+      </div>
       <div class="star">
       </div>
       <div class="rating">
@@ -124,21 +132,21 @@
   </div>
 </div>
 </main>
-        <footer class="main-footer">
-          <div class="container">
-            <section class="footer-contacts">
-              #Visitsedona
-            </section>
-            <section class="footer-social">
-              <a class="social-btn social-btn-tw" href="#"></a>
-              <a class="social-btn social-btn-fb" href="#"></a>
-              <a class="social-btn social-btn-youtube" href="#"></a>
-            </section>
-            <section class="footer-copyright">
-              <p>WEBSITE BY</p>
-              <img class="btn" href="https://htmlacademy.ru" src="img/htmlacademy.png" alt="HTML Academy" width="113" height="39">
-            </section>
-          </div>
-        </footer>
-      </body>
-    </html>
+<footer class="main-footer">
+  <div class="container">
+    <section class="footer-contacts">
+      #Visitsedona
+    </section>
+    <section class="footer-social">
+      <a class="social-btn social-btn-tw" href="#"></a>
+      <a class="social-btn social-btn-fb" href="#"></a>
+      <a class="social-btn social-btn-youtube" href="#"></a>
+    </section>
+    <section class="footer-copyright">
+      <p>WEBSITE BY</p>
+      <a href="https://htmlacademy.ru" src="img/htmlacademy.png" alt="HTML Academy" width="113" height="39">
+    </section>
+  </div>
+</footer>
+</body>
+</html>

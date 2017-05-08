@@ -185,25 +185,51 @@ body {
   width: 570px;
   margin: 0 auto;
 }
+footer {
+  position: ;
+}
 .footer-contacts {
   color: #000000;
   font-size: 21px;
   line-height: auto;
   font-weight: bold;
-  float: left;
+  display: inline-block;
 }
 .footer-social {
-  float: left;
+  display: inline-block;
 }
 .footer-copyright {
-  float: left;
+  display: inline-block;
 }
 .container {
   text-align: center;
 }
 /*catalog*/
+.hotel {
+  width: 1200px;
+  height: 218px;
+  background-image: url("../img/filter-background.jpg");
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-position: left;
+  display: block;
+}
 .hotel-form {
-  background: url("../img/filter-background.jpg")
+  padding: 31px 73px;
+}
+.infra {
+  display: inline-block;
+  vertical-align: top;
+}
+.cost-type {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 116px;
+}
+.cost-in-day {
+  vertical-align: top;
+  display: inline-block;
+  margin-left:280px;
 }
 .h3 {
   color: #ffffff;
@@ -222,6 +248,17 @@ body {
   font-size: 16px;
   line-height: auto;
   font-weight: bold;
+}
+.findout li {
+  display: inline;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.hotel-item img {
+  display: inline-block;
+}
+.findout-about {
+  display: inline-block;
 }
 .findout p {
   color: #000000;
